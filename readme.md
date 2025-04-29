@@ -17,9 +17,9 @@ An intelligent assistant that scrapes [ChaiDocs](https://chaidocs.vercel.app/you
 
 - 🤖 **AI-Powered Response**  
   Sends retrieved context to OpenAI's GPT model to generate accurate, context-rich answers.
-
-- 🐳 **Dockerized Setup**  
-  Fully containerized — just clone the repo, add your `.env`, and you're ready to go!
+  
+- 🐳 **Qdrant via Docker**  
+  Qdrant is containerized for easy setup — just run the Docker command, and you're ready to store and search embeddings!
 
 ---
 
@@ -29,7 +29,6 @@ An intelligent assistant that scrapes [ChaiDocs](https://chaidocs.vercel.app/you
 - **BeautifulSoup / Requests** – For scraping
 - **Qdrant** – Vector database
 - **OpenAI API** – For embeddings + GPT-based responses
-- **FastAPI / Flask** – (Depending on your implementation) for serving the app
-- **Docker** – For containerized deployment
+- **Docker** – For Qdrant database connectivity
 
 ---
